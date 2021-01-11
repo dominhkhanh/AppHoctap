@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/MenuProfolio">
+
+    <fragment
+        android:id="@+id/MenuNofications"
+        android:name="com.example.apphoctap.NotificationFragment"
+        android:label="notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/MenuProfolio"
+        android:name="com.example.apphoctap.ProfolioFragment"
+        android:label="fragment_profolio"
+        tools:layout="@layout/fragment_profolio" />
+    <fragment
+        android:id="@+id/MenuSetting"
+        android:name="com.example.apphoctap.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

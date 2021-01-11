@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/MenuProfolio"
+        android:icon="@drawable/portfolio"
+        android:title="Profolio">
+
+    </item>
+    <item android:id="@+id/MenuNofications"
+        android:icon="@drawable/bell"
+        android:title="Nofications">
+
+    </item>
+    <item android:id="@+id/MenuInbox"
+        android:icon="@drawable/inbox"
+        android:title="Inbox">
+
+    </item>
+    <item android:title="Others">
+
+     <menu>
+         <item android:id="@+id/MenuSetting"
+             android:icon="@drawable/technical"
+             android:title="Setting">
+         </item>
+     </menu>
+    </item>
+
+</menu>
